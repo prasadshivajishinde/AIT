@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+
+  <style>
+   #myButton{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    padding: 8px;
+    background-color:blue;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+    
+}
+#myButton:hover{
+    background-color: rgb(71, 196, 155);
+}
+
+body{
+    background:url(banner-1.jpg);
+}
+
+.Ass1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+</style>
+</head>
+<body>
+<div class="Ass1">
+    <h2>Assignment 1</h2>
+    <button id="myButton" class="btn btn-primary">View</button>
+
+    <h2>Assignment 2</h2>
+    <button id="myButton" class="btn btn-primary">View</button>
+
+    
+
+
+</div>
+
+
+ 
+   
+
+<script>
+
+
+
+    document.getElementById("myButton").onclick = function () {
+        location.href = "view.html";
+    };
+</script>
+</body>
+</html>
